@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'SetoFont';
+    src: url(../chess/JasonHandwriting4.woff);
+}
+
+:root {
+    --color-1: #186cb8;
+    --color-2: #2a9a9f;
+    --color-3: #f1b211;
+    --color-4: #e83611;
+    --color-5: #f9002f;
+}
+
+body {
+    position: relative;
+    background: linear-gradient(219deg,
+    var(--color-5) 9%,
+    transparent 19%, transparent 20%,
+    var(--color-4) 20%, var(--color-2) 39%,
+    transparent 39%, transparent 40%,
+    var(--color-3) 40%, var(--color-3) 59%,
+    transparent 59%, transparent 60%,
+    var(--color-2) 60%, var(--color-4) 79%,
+    transparent 79%, transparent 80%,
+    var(--color-1) 80%);
+    height: 100vh;
+    width: 100vw;
+}
+
+#box {
+    width: 100vw;
+    height: 90vh;
+}
+
+.text-center {
+    font-family: 'SetoFont';
+    margin-top: 3vh;
+    padding: 10px;
+}
+
+#button {
+    position: relative;
+    transform: translate(-50, 0);
+    margin-top: 5vh;
+}
+
+#b1 {
+    font-family: 'SetoFont';
+    font-size: 70px;
+    padding: 5px;
+    transform: translate(-50%, 0);
+    margin-left: 50%;
+    height:auto;
+    width: 200px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    color: var(--color-3);
+    background-color: transparent;
+    transition: all .3s linear;
+    border: none;
+} 
+
+#b1:hover{
+    background-color: var(--color-3);
+    color: black;
+
+}

@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'SetoFont';
+    src: url(JasonHandwriting4.woff);
+}
+
+:root {
+    --color-1: #186cb8;
+    --color-2: #2a9a9f;
+    --color-3: #f1b211;
+    --color-4: #e83611;
+    --color-5: #f9002f;
+    --bg: #fff;
+    --text: #382b22;
+    --light-pink: #fff0f0;
+    --pink: #ffe9e9;
+    --dark-pink: #f9c4d2;
+    --pink-border: #b18597;
+    --pink-shadow: #ffe3e2;
+}
+
+#box1 {
+    position: absolute;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, rgba(177, 180, 121, 0.8), white, rgba(180, 121, 177, 0.5));
+}
+
+#img {
+    width: 100px;
+    height: auto;}
+
+
+#btnA {
+    position: fixed;
+    width: max-content;
+    margin-top: 15vh;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#btnB {
+    position: fixed;
+    width: max-content;
+    margin-top: 27vh;
+    margin-left: 50.5%;
+    transform: translate(-50%, 0);
+}
+
+#btnC {
+    position: fixed;
+    width: max-content;
+    margin-top: 39vh;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#btnD {
+    position: fixed;
+    width: max-content;
+    margin-top: 51vh;
+    margin-left: 50.5%;
+    transform: translate(-50%, 0);
+}
+
+#btnE {
+    position: fixed;
+    width: max-content;
+    margin-top: 63vh;
+    margin-left: 50.5%;
+    transform: translate(-50%, 0);
+}
+
+#derId {
+    margin-right: 5vw;
+    margin-bottom: 10vh;
+}
+
+input[type=checkbox] {visibility: hidden;}
+.button{
+    position: absolute;
+    transform: translate(-50%, 0);
+    margin-left: 50vw;
+    margin-top: 80vh;
+    width: auto;
+    height: auto;
+    border: hidden;
+}
+
+
+
+.button label{
+    position: absolute;
+    display: block;
+    font-family: 'SetoFont','Courier New';
+    font-size: 55px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+	width: auto;
+	height: auto;
+	transition: all .3s linear;
+	cursor: pointer;
+    border: hidden;
+}
+
+
+#h31 {    
+    font-family: "Exo", sans-serif;
+    font-weight: 900;
+    width: min-content;
+    margin: auto;
+    text-transform: uppercase;
+    background: linear-gradient(219deg,
+            var(--color-1) 19%,
+            transparent 19%, transparent 20%,
+            var(--color-2) 20%, var(--color-2) 39%,
+            transparent 39%, transparent 40%,
+            var(--color-3) 40%, var(--color-3) 59%,
+            transparent 59%, transparent 60%,
+            var(--color-4) 60%, var(--color-4) 79%,
+            transparent 79%, transparent 80%,
+            var(--color-5) 80%);
+    background-clip: text;
+    clip: text;
+    color: transparent;
+    float: left;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+#h32 {    
+    font-family: "Exo", sans-serif;
+    font-weight: 900;
+    width: min-content;
+    margin: auto;
+    text-transform: uppercase;
+    background: linear-gradient(219deg,
+            var(--color-1) 19%,
+            transparent 19%, transparent 20%,
+            var(--color-2) 20%, var(--color-2) 39%,
+            transparent 39%, transparent 40%,
+            var(--color-3) 40%, var(--color-3) 59%,
+            transparent 59%, transparent 60%,
+            var(--color-4) 60%, var(--color-4) 79%,
+            transparent 79%, transparent 80%,
+            var(--color-5) 80%);
+    background-clip: text;
+    clip: text;
+    color: transparent;
+    float: right;
+    margin-right: 3%;
+    margin-top: 1%;
+}
